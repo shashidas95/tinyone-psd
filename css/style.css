@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+}
+.service-section .col{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	max-width: 750px;
+	justify-content: center;
+}
+.service-section h1, p{
+	color: black;
+}
+
+.form-section{
+	background: #010101;
+	padding-top: 100px;
+}
+.form-section p{
+	color: #fff;
+}
+
+h1{
+	color: #fcdb00;
+}
+
+
+.form-section button{
+	background:  #fcdb00;
+	display: inline-block ;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 15px !important;
+	margin: 20px;
+
+} 
+.custom-btn:hover{
+	opacity: 0.8;
+}
+.social-icon a i{
+	color:   #fcdb00;
+	display: inline-block;
+	padding: 0 10px;
+	margin-top: 75px;
+	margin-bottom: 125px;
+	}
+.social-icon a i:hover{
+		opacity:0.8
+		}
+
+.service-section{
+	margin-bottom: 100px;
+}
+.service-card-title{
+font-size: 25px;
+font-weight: 400;
+
+}
+
+.service-card-body{
+	margin-top: 0;
+	
+}
+.col-md-4 i{
+	font-size: 48px;
+	margin-top:5px;
+	margin-left:20px;
+	
+}
+
+.card-body h5{
+	color:black;
+}
+
+footer{
+	background: #010101;
+	margin-bottom: 50px;
+}
+footer h5{
+	color: #fff !important;
+	font-size: 12;
+	font-weight: 400;
+
+}
+.company-info p{
+	color: #fff;
+}
+.footer-info-menu{
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+  .company-link ul{
+	  display: flex;
+	  flex-direction: column;
+	  font-size: 16px;
+	text-transform: capitalize;
+}
+ 
+  .company-link li a{
+	  color: #fff;
+}
+@media (max-width:770px){
+	.footer-info-menu{
+		
+		grid-template-columns: 1fr;
+		justify-content: center;
+		text-align: center;
+		}
+.service-section-inner{
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+}
