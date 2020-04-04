@@ -25,19 +25,27 @@ h1{
 	color: #fcdb00;
 }
 
-
+.form-row{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
 .form-section button{
 	background:  #fcdb00;
 	display: inline-block ;
 	border: none;
 	border-radius: 5px;
-	padding: 5px 15px !important;
-	margin: 20px;
-
+	padding: 8px 15px !important;
+	margin-left: 20px;
 } 
-.custom-btn:hover{
+.form-section button:hover{
 	opacity: 0.8;
 }
+.service-section-inner{
+	display: grid;
+	grid-template-columns: reapeat(3, 1fr);
+	justify-content: center;
+	}
+
 .social-icon a i{
 	color:   #fcdb00;
 	display: inline-block;
@@ -115,4 +123,5 @@ footer h5{
 	text-align: center;
 	align-items: center;
 }
+
 }
